@@ -1,1 +1,114 @@
 @import '../bootstrap/assets/stylesheets/bootstrap';
+@font-face{
+	font-family: 'BebasNeue';
+	src: url('fonts/BebasNeueRegular.ttf');
+}
+@font-face{
+	font-family: 'BebasNeueBold';
+	src: url('fonts/BebasNeueBold.ttf');
+}
+@font-face{
+	font-family: 'BebasNeueBook';
+	src: url('fonts/BebasNeueBook.ttf');
+}
+@font-face{
+	font-family: 'BebasNeueLight';
+	src: url('fonts/BebasNeueLight.ttf');
+}
+@font-face{
+	font-family: 'BebasNeueThin';
+	src: url('fonts/BebasNeueThin.ttf');
+}
+
+$ewu-red: #a10022;
+$bg-gray: #222;
+
+
+body{
+	font-family:'BebasNeueBook';
+	background: $bg-gray;
+	font-size: 2em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-family: 'BebasNeueBold';
+}
+
+
+
+.navbar{
+	background: $gray-dark;
+	color: #fff;
+	border: none;
+	.title{
+		display:inline;
+		font-size: 3em;
+		font-family: BebasNeueBold;
+	}
+	.navbar-link{
+		font-family: BebasNeueLight;
+		color:white;
+		font-size: 3em;
+		margin: auto 10px;
+	}
+	.navbar-link:hover{
+		text-decoration: none;
+		cursor: pointer;
+		color: $gray-lighter;
+	}
+}
+
+.main-content{
+	width:100%;
+	padding: 10px;
+}
+
+.spacer{
+	display: block;
+}
+.spacer-lg{
+	height: 50px;
+}
+.spacer-med{
+	height: 25px;
+}
+.spacer-sm{
+	height: 10px;
+}
+
+
+section{
+	background: $gray-lighter;
+	padding: 0 !important;
+	.header{
+		background: $ewu-red;
+		font-family: 'BebasNeueBold';
+		padding: 10px;
+		color: #fff;
+		font-size: 4em;
+		*{
+			margin: 0;
+			padding: 0;
+		}
+	}
+	.section-content{
+		padding: 5px;
+	}
+	p{
+		text-indent: 1em;
+	}
+}
+
+.page-footer{
+	background: $gray-dark;
+	color: white;
+	padding: 3px;
+	font-size: .75em;
+	position: absolute;
+	width: 100%;
+}
