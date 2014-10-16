@@ -21,7 +21,7 @@
 }
 
 $ewu-red: #a10022;
-$bg-gray: #222;
+$bg-gray: #fff;
 
 
 body{
@@ -42,8 +42,8 @@ h6{
 
 
 .navbar{
-	background: $gray-dark;
-	color: #fff;
+	background: $gray-lighter;
+	color: $ewu-red;
 	border: none;
 	.title{
 		display:inline;
@@ -52,14 +52,14 @@ h6{
 	}
 	.navbar-link{
 		font-family: BebasNeueLight;
-		color:white;
+		color: $gray-dark;
 		font-size: 3em;
 		margin: auto 10px;
 	}
 	.navbar-link:hover{
 		text-decoration: none;
 		cursor: pointer;
-		color: $gray-lighter;
+		color: #fff;
 	}
 }
 
@@ -81,7 +81,7 @@ h6{
 	height: 10px;
 }
 .spacer.line{
-	border-top: solid $gray-dark 1px;
+	border-top: solid #fff 1px;
 }
 
 .divider-vertical{
@@ -93,7 +93,7 @@ h6{
 
 section{
 	margin: 10px 0;
-	background: $gray-lighter;
+	background: $gray;
 	padding: 0 !important;
 	.header{
 		background: $ewu-red;
@@ -108,6 +108,7 @@ section{
 	}
 	.section-content{
 		padding: 10px 10px 20px 10px;
+		color: #fff;
 	}
 	p{
 		text-indent: 1em;

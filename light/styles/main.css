@@ -5305,7 +5305,7 @@ button.close {
   src: url("fonts/BebasNeueThin.ttf"); }
 body {
   font-family: sans-serif;
-  background: #222222;
+  background: white;
   font-size: 2em; }
 
 h1,
@@ -5317,8 +5317,8 @@ h6 {
   font-family: 'BebasNeueBold'; }
 
 .navbar {
-  background: #333333;
-  color: #fff;
+  background: #eeeeee;
+  color: #a10022;
   border: none; }
   .navbar .title {
     display: inline;
@@ -5326,13 +5326,13 @@ h6 {
     font-family: BebasNeueBold; }
   .navbar .navbar-link {
     font-family: BebasNeueLight;
-    color: white;
+    color: #333333;
     font-size: 3em;
     margin: auto 10px; }
   .navbar .navbar-link:hover {
     text-decoration: none;
     cursor: pointer;
-    color: #eeeeee; }
+    color: #fff; }
 
 .main-content {
   width: 100%;
@@ -5351,7 +5351,7 @@ h6 {
   height: 10px; }
 
 .spacer.line {
-  border-top: solid #333333 1px; }
+  border-top: solid #fff 1px; }
 
 .divider-vertical {
   display: inline;
@@ -5360,7 +5360,7 @@ h6 {
 
 section {
   margin: 10px 0;
-  background: #eeeeee;
+  background: #555555;
   padding: 0 !important; }
   section .header {
     background: #a10022;
@@ -5372,7 +5372,8 @@ section {
       margin: 0;
       padding: 0; }
   section .section-content {
-    padding: 10px 10px 20px 10px; }
+    padding: 10px 10px 20px 10px;
+    color: #fff; }
   section p {
     text-indent: 1em; }
   section .video {
