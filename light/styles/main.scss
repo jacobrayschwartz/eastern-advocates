@@ -81,7 +81,7 @@ h6{
 	height: 10px;
 }
 .spacer.line{
-	border-top: solid #fff 1px;
+	border-top: solid $gray-darker 1px;
 }
 
 .divider-vertical{
@@ -93,7 +93,7 @@ h6{
 
 section{
 	margin: 10px 0;
-	background: $gray;
+	background: $gray-lighter;
 	padding: 0 !important;
 	.header{
 		background: $ewu-red;
@@ -108,7 +108,7 @@ section{
 	}
 	.section-content{
 		padding: 10px 10px 20px 10px;
-		color: #fff;
+		color: $gray-darker;
 	}
 	p{
 		text-indent: 1em;

@@ -5351,7 +5351,7 @@ h6 {
   height: 10px; }
 
 .spacer.line {
-  border-top: solid #fff 1px; }
+  border-top: solid #222222 1px; }
 
 .divider-vertical {
   display: inline;
@@ -5360,7 +5360,7 @@ h6 {
 
 section {
   margin: 10px 0;
-  background: #555555;
+  background: #eeeeee;
   padding: 0 !important; }
   section .header {
     background: #a10022;
@@ -5373,7 +5373,7 @@ section {
       padding: 0; }
   section .section-content {
     padding: 10px 10px 20px 10px;
-    color: #fff; }
+    color: #222222; }
   section p {
     text-indent: 1em; }
   section .video {
